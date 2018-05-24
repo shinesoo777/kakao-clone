@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Welcome to my Kakao Clone">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Friends</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="header_top">
+      <div class="header_column"></div
+        <i class="fa fa-plane"></i>
+        <i class="fa fa-wifi"></i>
+      >
+      <div class="header_column"></div>
+      <span class="header_time">18:38</span>
+      <div class="header_column"></div>
+      <i class="fa fa-moon"></i>
+      <i class="fa fa-bluetooth-b"></i>
+      <span class="header_battery">88%<i class="fa fa-battery-three-quarters"></i></span>
+    </div>
+    <div class="header_bottom">
+      <div class="header_column">
+        <span class="header_text">Message</span>
+      </div>
+      <div class="header_column">
+        <span class="header_text">Friends <span class="header_number">1</span></span>
+      </div>
+      <div class="header_column">
+        <i class="fa fa-cog"></i>
+      </div>
+    </div>
+  </header>
+  <main class="Friends">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+        <input type="text" placeholder="Find Friends, chats, Plus Friends">
+    </div>
+    <section class="friends_section">
+      <header class="friends_section-header">
+        <h6 class="friends_section-title">My Profile</h6>
+      </header>
+      <div class="friends_section-rows">
+        <div class="friends_section-row">
+          <img src="" alt="">
+          <span class="friends_section-name">SOO</span>
+        </div>
+        <div class="friends_section-row">
+          <img src="" alt="">
+          <span class="friends_section-name">Friends' Names Display</span>
+        </div>
+      </div>
+    </section>
+    <section class="friends_section">
+      <header class="friends_section-header">
+        <h6 class="friends_section-title">Friends</h6>
+      </header>
+      <div class="friends_section-rows">
+        <div class="friends_section-row">
+        <div class="friends_section-header_column">
+          <img src="" alt="">
+          <span class="friends_section-name">Nicolas</span>
+        </div>
+        <span class="friends_section-tagline">
+          Life is short, So live your life.
+        </span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar_tab tab-bar_tab-selected">
+      <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar_tab">
+      <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar_tab">
+      <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar_tab">
+      <i class="fa fa-search"></i><span class="tab-bar_title">More</span>
+    </a>
+  </nav>
+</body>
 </html>
