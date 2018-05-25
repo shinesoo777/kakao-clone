@@ -75,7 +75,7 @@
   color: #b4b4b4;
 }
 .type-message_input {
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
 }
@@ -86,7 +86,7 @@
 }
 .type-message_input .fa-smile-o {
   position: absolute;
-  right: 40px;
+  right: 45px;
   color: #b4b4b4;
 }
 .type-message_input .record-message {
